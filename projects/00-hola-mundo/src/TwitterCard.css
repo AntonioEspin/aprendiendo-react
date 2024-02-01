@@ -1,0 +1,52 @@
+.container {
+  width: 550px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.container-header {
+  display: flex;
+  align-items: center;
+}
+
+.container-header img {
+  width: 80px;
+  margin-right: 10px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.info strong {
+  font-size: 2rem;
+}
+
+.info span {
+  font-size: 1rem;
+  color: gainsboro;
+}
+
+.container-button button {
+  border-radius: 50px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  padding: 16px 30px;
+  transition: background-color 1s ease;
+}
+
+.button:hover {
+  background-color: aqua;
+}
+
+.container-button .clicked-button {
+  background-color: red;
+  color: white;
+  
+}
+
